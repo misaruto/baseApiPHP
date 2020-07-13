@@ -1,0 +1,92 @@
+﻿<form class="form-row align-items-center" id="formCadastraNegocio" style="margin-top: 15px;">
+<div >
+  <div class="form-group semBorda" id="nomeNegocio" >
+    <label for="inputNomeCadastrarProdutor" class="badge badge-success" style="">Nome</label>
+    <input data-form="nomeNegocio" id="inputNomeCadastrarProdutor" name="nome" type="text" class="form-control semBorda"
+
+    placeholder="Digite aqui seu nome completo" required>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-8" id="whatsapp">
+      <label for="inputWhatsappCadastrarProdutor"class="badge badge-success">WhatsApp</label>
+      <input data-form="whatsapp" id="inputWhatsappCadastrarProdutor" name="whatsapp" type="tel" class="form-control"aria-describedby="wppHelp"
+        placeholder="Insira o número do WhatsApp aqui" required>
+        <small id="wppHelp" class="form-text">Deixe em branco se o número for igual ao o número já cadastrado</small>
+    </div>
+
+
+    <div class="form-group col-md-4" id="cidade">
+      <label for="idCidadeCadastrarProdutor"class="badge badge-success">Cidade</label>
+      <select data-form="cidade" name="idCidade" id="idCidadeCadastrarProdutor" class="form-control cidade"
+        placeholder="Cidade">
+        <option disabled selected>Cidade</option>
+      </select>
+    </div>
+
+  </div>
+  <div class="form-group" id="endereco">
+    <label for="inputEnderecoCadastrarProdutor"class="badge badge-success">Endereço</label>
+    <input data-form="endereco" id="inputEnderecoCadastrarProdutor" name="endereco" type="text" class="form-control"
+      placeholder="Digite a localização de seu negócio" required>
+  </div>
+
+  <div id="formas">
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="inputFormPagamentoCadastrarProdutor"class="badge badge-success">Forma de pagamento</label>
+        <input data-form="formaPagamento" id="inputFormPagamentoCadastrarProdutor" name="formaPagamento" type="text"
+          class="form-control" placeholder="Ex: Cartão, dinheiro, etc.." required>
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputFormaEntregaCadastrarProdutor"class="badge badge-success">Forma de entrega</label>
+        <input data-form="formaEntrega" id="inputFormaEntregaCadastrarProdutor" name="formaEntrega" type="text"
+          class="form-control" placeholder="Forma de entrega" required>
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputCategoriaCadastrarProdutor"class="badge badge-success">Categoria</label>
+        <select data-form="categoriaNegocio" name="idCategoria" id="categoriaNegocio" class="form-control categoria">
+          <option selected disabled>Categoria</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div id="sobre" class="form-row">
+    <div class="form-group col-md-5">
+      <label for="inputKeywordsCadastrarProdutor"class="badge badge-success">Palavras chave</label>
+      <input data-form="keywords" id="inputKeywordsCadastrarProdutor" name="keywords" type="text" class="form-control"
+        placeholder="Ex: Alimento, padaria, etc..." required>
+    </div>
+    <div class="form-group col-md-7">
+      <label for="inputDescricaoCadastrarProdutor"class="badge badge-success">Descrição</label>
+      <textarea data-form="descricao" id="inputDescricaoCadastrarProdutor" name="descricao" class="form-control"
+        placeholder="Descreva quais são as características do seu negócio"></textarea>
+    </div>
+  </div>
+
+  <div id="imgContainer" class="img">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text badge-success" id="inputGroupFileAddon01">Upload</span>
+      </div>
+      <div class="custom-file">
+        <input name="img" type="file" class="custom-file-input badge-success" id="img" accept="image/*"
+          aria-describedby="inputGroupFileAddon01">
+        <label class="custom-file-label" for="img">Escolha uma imagem</label>
+      </div>
+    </div>
+  </div>
+  <button class="cadButton";>
+      <span> Cadastrar </span>
+    </button>
+  </div>
+  
+</form>
+
+
+  
+    
+  
+
+

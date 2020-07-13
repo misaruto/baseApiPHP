@@ -1,0 +1,18 @@
+body {
+	background: rgb(101,233,110);
+background: linear-gradient(90deg, rgba(101,233,110,1) 1%, rgba(171,255,178,1) 51%, rgba(111,255,125,1) 100%);
+}
+
+@media screen and (max-width:769px){
+	.card{
+		width: 300px !important;
+		margin-top: 20px;
+		box-shadow: 0 0 4px #000;
+	}
+}
+
+.card{
+	width: 350px;
+	margin-top: 20px;
+	box-shadow: 0 0 4px #000;
+}
